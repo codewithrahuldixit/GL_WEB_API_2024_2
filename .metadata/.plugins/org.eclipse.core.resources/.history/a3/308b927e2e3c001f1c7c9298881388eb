@@ -1,0 +1,8 @@
+package com.rahul;
+
+public class ConfigurationDemo {
+
+	public String getName() {
+		return "Rahul Kumar Dixit";
+	}
+}

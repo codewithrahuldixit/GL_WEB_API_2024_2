@@ -1,0 +1,18 @@
+package com.rahul;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class ConfigurationDemo {
+
+	@Bean
+	public String getName() {
+		return "Rahul Kumar Dixit";
+	}
+	
+	@Bean
+	public Long getContact() {
+		return 9015088066l;
+	}
+}

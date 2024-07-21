@@ -1,10 +1,13 @@
 package com.rahul;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
+@Qualifier("circle")
+@Lazy
 public class Circle implements Shape{
 	
 	private int radius;
@@ -12,6 +15,7 @@ public class Circle implements Shape{
 	public Circle() {
 		super();
 		// TODO Auto-generated constructor stub
+		System.out.println("Circle Object Is Created");
 	}
 
 	//Parameterized Constructor

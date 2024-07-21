@@ -19,12 +19,20 @@ public class SpringLvc01Application {
 	//	Circle circle = (Circle)context.getBean("circle");
 	//	Rectangle rectangle = (Rectangle)context.getBean("rect");
 		//By Type
-		Circle circle = context.getBean(Circle.class);
+	/**	Circle circle = context.getBean(Circle.class);
 		Rectangle rectangle = context.getBean(Rectangle.class);
 		System.out.println(circle);
 		System.out.println(rectangle);
 		Shape  shape = context.getBean(Shape.class);
-		System.out.println(shape);
+		System.out.println(shape);*/
+	//	DrawingApp  d = context.getBean(DrawingApp.class);
+	//	d.draw();
+		System.out.println(context.getBean(DrawingApp.class).hashCode());
+		System.out.println(context.getBean(DrawingApp.class).hashCode());
+		System.out.println(context.getBean(DrawingApp.class).hashCode());
+		System.out.println(context.getBean(DrawingApp.class).hashCode());
+		System.out.println(context.getBean(DrawingApp.class).hashCode());
+		System.out.println(context.getBean(DrawingApp.class).hashCode());
 		
 	}
 

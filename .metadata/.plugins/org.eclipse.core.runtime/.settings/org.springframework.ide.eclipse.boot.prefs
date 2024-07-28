@@ -1,11 +1,12 @@
 eclipse.preferences.version=1
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=Spring_LVC_01
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.3.1
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Demo project for Spring Boot
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=1
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=Spring_First_RestAPI
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.3.2
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Web Application 
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.rahul
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=Spring_LVC_01
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=Spring_First_RestAPI
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.rahul
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN

@@ -1,11 +1,21 @@
 package com.rahul;
 
+import java.util.Random;
+import java.util.random.RandomGenerator;
+
+import org.hibernate.annotations.IdGeneratorType;
+
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.SequenceGenerator;
 
 @Entity
 public class Student {
 	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE,generator ="id")
+	@SequenceGenerator(name = "id",sequenceName = "id",initialValue = 1006,allocationSize = 1)
 	private int id;
 	private String name;
 	private String contact;

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="https://www.thymeleaf.org">
+<meta charset="UTF-8">
+<title>First Spring MVC Page</title>
+
+
+<body>
+<h1 th:text = "#{demo.welcome}"> Message </h1>
+
+<div>
+ Id Of The Student : <h1 th:text="${student.id}">ID</h1>
+ Name of the Student : <p th:text="${student.name}">Name</p>
+ Contact of The Student : <p th:text="${student.contact}">Contact</p>
+</div>
+<hr>
+<div th:object="${student}">
+ Id Of The Student Rendered By Selection Expression : <h1 th:text="*{id}">ID</h1>
+ Name of the Student Rendered By Selection Expression: <p th:text="*{name}">Name</p>
+ Contact of The Student Rendered By Selection Expressions : <p th:text="*{contact}">Contact</p>
+</div>
+
+</body>
+</html>

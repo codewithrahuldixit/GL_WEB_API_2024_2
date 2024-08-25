@@ -4,4 +4,18 @@
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\acer\Desktop\Rahul_Material\KIET_2nd_Year_2024\AIML_Sec_B_Lecture_BootMVC_01"/>
+			<item value="C:\Users\acer\Desktop\Rahul_Material\KIET_2nd_Year_2024\AIML_Sec_A_Lecture_BootMVC_01"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 </section>

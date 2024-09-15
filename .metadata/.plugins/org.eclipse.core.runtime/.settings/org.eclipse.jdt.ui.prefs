@@ -1,3 +1,4 @@
+breadcrumb.org.eclipse.jdt.ui.JavaPerspective=true
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.rahul.DrawingApp"><rhs name\="com.rahul.DrawingApp"/></lhs><lhs name\="MathDemo"><rhs name\="MathDemo"/></lhs><lhs name\="java.lang.Enum"><rhs name\="java.lang.annotation.ElementType"/><rhs name\="java.lang.annotation.RetentionPolicy"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="java.lang.annotation.ElementType"/><rhs name\="java.lang.annotation.RetentionPolicy"/></lhs></history>
 content_assist_number_of_computers=15
 content_assist_proposals_background=255,255,255

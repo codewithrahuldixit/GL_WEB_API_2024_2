@@ -2,7 +2,7 @@ package LVC_02;
 
 public class MainDriver {
 public static void main(String[] args) {
-	int arr[]= {8,7,6,1,5,9,7,3};
+	int arr[]= {6,8,10,6,9,11,4,3,2};
 	
 	print(arr,"Before Sorting");
 	Sorting.InsertionSort02(arr);

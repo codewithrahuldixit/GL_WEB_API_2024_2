@@ -26,7 +26,7 @@ public class DisjointusingRank {
 			return;
 		if (ds.rank.get(super_u) < ds.rank.get(super_v)) {
 			ds.parent.set(super_u, super_v);
-		} else if (ds.rank.get(super_v) < ds.rank.get(super_u)) {
+		} else if (ds.rank.get(super_v) > ds.rank.get(super_u)) {
 			ds.parent.set(super_v, super_u);
 		} else {
 			ds.parent.set(super_v, super_u);

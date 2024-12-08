@@ -15,6 +15,7 @@ class Solution {
         for (int i = 0; i < V; i++) dist[i] = (int)(1e8);
         dist[S] = 0;
         // V x E
+        // n-1 steps 
         for (int i = 0; i < V - 1; i++) {
             for (ArrayList<Integer> it : edges) {
                 int u = it.get(0);

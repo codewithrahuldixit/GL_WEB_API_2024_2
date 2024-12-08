@@ -13,8 +13,9 @@ static int f(int n, int[] dp){
 
 public static void main(String args[]) {
 
-  int n=5;
+  int n=6;
   int dp[]=new int[n+1];
+  //Initialization done with -1
   Arrays.fill(dp,-1);
   System.out.println(f(n,dp));
   
